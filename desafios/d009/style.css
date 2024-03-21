@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    text-decoration: none;
+    background-color: #000;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.título {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: aliceblue;
+    transition: .1s;
+}
+
+p:hover {
+    color: rgb(216, 96, 116);
+}
+
+main {
+    text-align: center;
+    padding-top: 30px;
+}

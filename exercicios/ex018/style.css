@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Love';
+    src: url('./fonts/my-love.otf') format('opentype'), url('./fonts/my-love.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#love {
+    font-family: Love;
+    font-size: 3em
+}
+
+body {
+    font-family: "Indie Flower", cursive;
+    background-image: linear-gradient(to right, #9b79b1, #EBA0D0, #bd8284);
+    font-size: 19px;
+    width: 700px;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Noto Serif", serif;
+}
+
+h2 {
+    font-family: "Noto Serif", serif;
+}
