@@ -9,20 +9,22 @@ body {
 
 header {
     background-color: black;
-    height: 250px;
+    height: 300px;
 }
 
 h1 {
     color: white;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 8em;
     padding-top: 70px;
+    font-variant: small-caps;
 }
 
 p {
     color: white;
     text-align: center;
     padding-top: 10px;
+    font-size: 20px;
 }
 
 a {
@@ -31,15 +33,46 @@ a {
     text-decoration: none;
 }
 
-main {
-    background-color: white;
-    height: 800px;
-    width: 800px;
-    margin: auto;
+a:hover {
+    text-decoration: underline;
 }
 
-h3 {
+section {
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+h2 {
     color: black;
     margin: 40px 0px 40px 15px;
-    line-height: 3em;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+
+.imagem > h2 {
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+    width: 400px;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
