@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+header {
+    background-color: black;
+    height: 250px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+    padding-top: 70px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+}
+
+h3 {
+    color: black;
+    margin: 40px 0px 40px 15px;
+    line-height: 3em;
+}
